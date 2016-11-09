@@ -3,7 +3,7 @@ import {render} from 'react-dom'
 interface PropsTypes{
     name:String
 }
-export class Hello extends React.Component<PropsTypes,{}>{
+class Hello extends React.Component<PropsTypes,{}>{
     render(){
         const {name}=this.props
         return(
